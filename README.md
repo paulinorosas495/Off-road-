@@ -1,0 +1,133 @@
+!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mundo Off-Road | Paulino Cos</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      padding: 20px;
+      background-color: #111;
+      border-bottom: 2px solid #444;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      color: #f4d35e;
+    }
+    p {
+      max-width: 700px;
+      margin: 20px auto;
+      font-size: 1.2rem;
+      line-height: 1.5;
+    }
+    .gallery {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      margin: 20px;
+    }
+    .gallery img {
+      width: 30%;
+      max-width: 300px;
+      border-radius: 10px;
+      border: 2px solid #f4d35e;
+    }
+    form {
+      margin: 30px auto;
+      max-width: 400px;
+      padding: 20px;
+      background-color: #111;
+      border-radius: 10px;
+      border: 1px solid #444;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      font-weight: bold;
+      text-align: left;
+    }
+    input, select, textarea, button {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    input, textarea, select {
+      background-color: #222;
+      color: #fff;
+    }
+    button {
+      background-color: #f4d35e;
+      color: #000;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    button:hover {
+      background-color: #ffb703;
+    }
+    footer {
+      margin: 20px 0;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mundo Off-Road</h1>
+    <p>Por: <strong>Paulino</strong></p>
+  </header>
+
+  <p>
+    Subirse a una moto off-road es sentir la libertad en su máxima expresión.  
+    El rugido del motor, el olor a tierra y el viento golpeando tu casco hacen que 
+    el mundo se sienta más vivo. No se trata solo de conducir, sino de conquistar 
+    terrenos, superar obstáculos y conectar con la naturaleza. Es una experiencia 
+    que te llena de adrenalina y paz al mismo tiempo.
+  </p>
+
+  <div class="gallery">
+    <img src="c:\Users\pauli\Pictures\Screenshots\Captura de pantalla 2025-07-11 143332.png" alt="Moto en acción">
+    <img src="c:\Users\pauli\Pictures\Screenshots\Captura de pantalla 2025-07-17 160532.png" alt="Ruta off-road">
+    <img src="c:\Users\pauli\Pictures\Screenshots\Captura de pantalla 2025-09-29 114354.png" alt="Equipo de motocross">
+  </div>
+
+  <form>
+    <h2>Contáctame</h2>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" placeholder="Escribe tu nombre" required>
+
+    <label for="opcion">¿Cómo quieres que te contacte?</label>
+    <select id="opcion" required>
+      <option value="">Selecciona una opción</option>
+      <option value="whatsapp">WhatsApp</option>
+      <option value="correo">Correo Electrónico</option>
+      <option value="llamada">Llamada Telefónica</option>
+    </select>
+
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+  <footer>
+    &copy; 2025 Mundo Off-Road | Paulino Cos
+  </footer>
+
+</body>
+</html>
